@@ -125,6 +125,7 @@ public class MainActivity extends AppCompatActivity {
             return githubSearchResults;
         }
 
+
         @Override
         protected void onPostExecute(String githubSearchResults) {
             // COMPLETED (27) As soon as the loading is complete, hide the loading indicator
